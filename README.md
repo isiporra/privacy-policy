@@ -1,177 +1,100 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Política de Privacidad - Curaito</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f7f7f7;
-      color: #333333;
-    }
-    header {
-      background-color: #4C49ED;
-      color: #ffffff;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      background-color: #ffffff;
-      padding: 2rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #4C49ED;
-      margin-top: 2rem;
-    }
-    p, li {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-    footer {
-      text-align: center;
-      margin: 2rem 0;
-      font-size: 0.9rem;
-      color: #666666;
-    }
-  </style>
-</head>
-<body>
+# Política de Privacidad - Curaito
 
-<header>
-  <h1>Política de Privacidad - Curaito</h1>
-</header>
+**Fecha de publicación:** 15 de febrero de 2025  
+**Fecha de última modificación:** 15 de febrero de 2025  
 
-<main>
-  <p><strong>Fecha de publicación:</strong> 15 de febrero de 2025</p>
-  <p><strong>Fecha de última modificación:</strong> 15 de febrero de 2025</p>
+En **Curaito** valoramos la privacidad de nuestros usuarios y nos comprometemos a proteger
+sus datos personales. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y
+protegemos la información en nuestra aplicación móvil para iOS, diseñada como un juego
+social que ofrece desafíos, preguntas y dinámicas entretenidas para fiestas y reuniones.
 
-  <p>
-    En <strong>Curaito</strong> valoramos la privacidad de nuestros usuarios y nos comprometemos a proteger
-    sus datos personales. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y
-    protegemos la información en nuestra aplicación móvil para iOS, diseñada como un juego social que
-    ofrece desafíos, preguntas y dinámicas entretenidas para fiestas y reuniones.
-  </p>
+---
 
-  <h2>1. Información que Recopilamos</h2>
-  <ul>
-    <li>
-      <strong>Datos de Jugadores:</strong> Cuando configuras tu perfil o el de otros participantes, solicitamos
-      información como el <em>nombre (apodo)</em>, <em>género</em>, <em>situación sentimental</em> y
-      <em>etapa de vida</em>. Estos datos se usan exclusivamente para personalizar la experiencia de juego,
-      por ejemplo, para mostrar quién realiza cada desafío o para aplicar filtros en las cartas.
-    </li>
-    <li>
-      <strong>Datos de Sesión:</strong> Al iniciar una partida, se almacenan configuraciones como
-      <em>intensidad</em>, <em>mood (jornada)</em>, <em>ambiente</em>, <em>tipo de grupo</em> y las
-      <em>cartas usadas</em> para poder reanudar la sesión o administrar correctamente los desafíos.
-    </li>
-    <li>
-      <strong>Datos de Uso y Rendimiento:</strong> Podemos recopilar información anónima sobre la interacción
-      con la app, como la frecuencia de uso o las pantallas visitadas, para fines de diagnóstico y mejora
-      continua.
-    </li>
-  </ul>
+## 1. Información que Recopilamos
 
-  <h2>2. Uso de la Información</h2>
-  <p>La información recopilada se utiliza para:</p>
-  <ul>
-    <li>
-      <strong>Personalizar la Experiencia de Juego:</strong> Mostrar desafíos, preguntas y penitencias adaptadas
-      según la configuración de jugadores (género, etapa de vida, etc.) y las preferencias seleccionadas.
-    </li>
-    <li>
-      <strong>Continuar Partidas y Guardar Configuraciones:</strong> Mantenemos la sesión activa para que puedas
-      retomar el juego donde lo dejaste, incluso tras cerrar la aplicación.
-    </li>
-    <li>
-      <strong>Mejorar la Aplicación:</strong> Analizamos de forma interna el uso de la app para optimizar el
-      rendimiento, corregir errores y ofrecer nuevas funcionalidades.
-    </li>
-    <li>
-      <strong>Cumplimiento de Normativas:</strong> Nos aseguramos de que nuestro manejo de datos cumpla con
-      las políticas de la App Store y otras leyes o regulaciones aplicables.
-    </li>
-  </ul>
-  <p>
-    En <strong>Curaito</strong> no vendemos ni compartimos datos personales con terceros para fines
-    publicitarios. Cuando utilizamos servicios externos (por ejemplo, para descargar cartas desde un
-    <em>endpoint remoto</em> o analizar métricas internas), estos proveedores deben cumplir con las
-    obligaciones de confidencialidad y sólo utilizan la información para los fines detallados en esta
-    política.
-  </p>
+- **Datos de Jugadores:** Cuando configuras tu perfil o el de otros participantes, solicitamos
+  información como el *nombre (apodo)*, *género*, *situación sentimental* y
+  *etapa de vida*. Estos datos se usan exclusivamente para personalizar la experiencia de juego,
+  por ejemplo, para mostrar quién realiza cada desafío o para aplicar filtros en las cartas.
 
-  <h2>3. Uso de Permisos</h2>
-  <p>Para que la app funcione correctamente, se solicitan los siguientes permisos:</p>
-  <ul>
-    <li>
-      <strong>Acceso a Internet:</strong> Necesario para descargar contenido de cartas desde un servidor
-      externo y actualizar datos de la sesión.
-    </li>
-    <li>
-      <strong>Almacenamiento Local:</strong> Se usa <em>UserDefaults</em> para guardar la sesión activa,
-      la configuración de jugadores y otras preferencias, permitiendo retomar la partida después de cerrar
-      la app.
-    </li>
-    <li>
-      <strong>Notificaciones (opcional):</strong> Sirven para enviar recordatorios o avisar sobre novedades
-      o actualizaciones en la aplicación. Si decides activarlas, puedes desactivarlas en cualquier momento
-      desde los ajustes de tu dispositivo.
-    </li>
-  </ul>
-  <p>
-    Los datos sensibles, como los nombres de jugadores, no se comparten con terceros a menos que sea
-    requerido por la ley o medie consentimiento explícito del usuario.
-  </p>
+- **Datos de Sesión:** Al iniciar una partida, se almacenan configuraciones como
+  *intensidad*, *mood (jornada)*, *ambiente*, *tipo de grupo* y las
+  *cartas usadas* para poder reanudar la sesión o administrar correctamente los desafíos.
 
-  <h2>4. Seguridad y Retención de Datos</h2>
-  <ul>
-    <li>
-      <strong>Seguridad:</strong> Implementamos medidas técnicas y organizativas para salvaguardar la
-      información de accesos no autorizados, alteraciones o divulgaciones. Utilizamos protocolos de
-      encriptación (por ejemplo, HTTPS) en la transferencia de datos.
-    </li>
-    <li>
-      <strong>Retención de Datos:</strong> Los datos de la sesión se mantienen mientras la partida
-      esté activa. Si no se detecta actividad durante un periodo prolongado (por ejemplo, 12 horas)
-      o al finalizar la sesión, la información se borra automáticamente. Puedes solicitar la
-      eliminación de tus datos en cualquier momento escribiendo al correo de contacto.
-    </li>
-  </ul>
+- **Datos de Uso y Rendimiento:** Podemos recopilar información anónima sobre la interacción
+  con la app, como la frecuencia de uso o las pantallas visitadas, para fines de diagnóstico y mejora
+  continua.
 
-  <h2>5. Cambios en la Política de Privacidad</h2>
-  <p>
-    <strong>Curaito</strong> se reserva el derecho de actualizar esta Política de Privacidad en cualquier
-    momento, para adaptarse a nuevas disposiciones legales o a mejoras en la aplicación. Cuando haya cambios
-    relevantes, se notificará a los usuarios a través de la app o en nuestro sitio web. Te recomendamos
-    revisar periódicamente esta política para mantenerte informado sobre cómo protegemos tus datos.
-  </p>
+---
 
-  <h2>6. Información de Contacto</h2>
-  <p>
-    Si tienes dudas, comentarios o deseas ejercer tus derechos de acceso, rectificación o eliminación de
-    datos, puedes contactarnos en:
-  </p>
-  <p>
-    <strong>Correo Electrónico:</strong> 
-    <a href="mailto:isidora.olivera@gmail.com">isidora.olivera@gmail.com</a>
-  </p>
+## 2. Uso de la Información
 
-</main>
+La información recopilada se utiliza para:
 
-<footer>
-  &copy; 2025 Curaito. Todos los derechos reservados.
-</footer>
+- **Personalizar la Experiencia de Juego:** Mostrar desafíos, preguntas y penitencias adaptadas
+  según la configuración de jugadores (género, etapa de vida, etc.) y las preferencias seleccionadas.
+- **Continuar Partidas y Guardar Configuraciones:** Mantenemos la sesión activa para que puedas
+  retomar el juego donde lo dejaste, incluso tras cerrar la aplicación.
+- **Mejorar la Aplicación:** Analizamos de forma interna el uso de la app para optimizar el
+  rendimiento, corregir errores y ofrecer nuevas funcionalidades.
+- **Cumplimiento de Normativas:** Nos aseguramos de que nuestro manejo de datos cumpla con
+  las políticas de la App Store y otras leyes o regulaciones aplicables.
 
-</body>
-</html>
+En **Curaito** no vendemos ni compartimos datos personales con terceros para fines
+publicitarios. Cuando utilizamos servicios externos (por ejemplo, para descargar cartas desde un
+*endpoint remoto* o analizar métricas internas), estos proveedores deben cumplir con las
+obligaciones de confidencialidad y sólo utilizan la información para los fines detallados en esta
+política.
+
+---
+
+## 3. Uso de Permisos
+
+Para que la app funcione correctamente, se solicitan los siguientes permisos:
+
+- **Acceso a Internet:** Necesario para descargar contenido de cartas desde un servidor
+  externo y actualizar datos de la sesión.
+- **Almacenamiento Local:** Se usa *UserDefaults* para guardar la sesión activa,
+  la configuración de jugadores y otras preferencias, permitiendo retomar la partida después de cerrar
+  la app.
+- **Notificaciones (opcional):** Sirven para enviar recordatorios o avisar sobre novedades
+  o actualizaciones en la aplicación. Si decides activarlas, puedes desactivarlas en cualquier momento
+  desde los ajustes de tu dispositivo.
+
+Los datos sensibles, como los nombres de jugadores, no se comparten con terceros a menos que sea
+requerido por la ley o medie consentimiento explícito del usuario.
+
+---
+
+## 4. Seguridad y Retención de Datos
+
+- **Seguridad:** Implementamos medidas técnicas y organizativas para salvaguardar la
+  información de accesos no autorizados, alteraciones o divulgaciones. Utilizamos protocolos de
+  encriptación (por ejemplo, HTTPS) en la transferencia de datos.
+
+- **Retención de Datos:** Los datos de la sesión se mantienen mientras la partida
+  esté activa. Si no se detecta actividad durante un periodo prolongado (por ejemplo, 12 horas)
+  o al finalizar la sesión, la información se borra automáticamente. Puedes solicitar la
+  eliminación de tus datos en cualquier momento escribiendo al correo de contacto.
+
+---
+
+## 5. Cambios en la Política de Privacidad
+
+**Curaito** se reserva el derecho de actualizar esta Política de Privacidad en cualquier
+momento, para adaptarse a nuevas disposiciones legales o a mejoras en la aplicación. Cuando haya cambios
+relevantes, se notificará a los usuarios a través de la app o en nuestro sitio web. Te recomendamos
+revisar periódicamente esta política para mantenerte informado sobre cómo protegemos tus datos.
+
+---
+
+## 6. Información de Contacto
+
+Si tienes dudas, comentarios o deseas ejercer tus derechos de acceso, rectificación o eliminación de
+datos, puedes contactarnos en:
+
+**Correo Electrónico:** [isidora.olivera@gmail.com](mailto:isidora.olivera@gmail.com)
+
+---
+
+© 2025 Curaito. Todos los derechos reservados.
